@@ -1,4 +1,4 @@
-class SecureList():
+class SecureList:
     def __init__(self, messages: list):
         self.__messages = []
         for message in messages:

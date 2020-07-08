@@ -3,7 +3,7 @@ import time
 import random
 
 def main():
-    warrior1 = Warrior("Иван")
+    warrior1 = Warrior("Петр")
     warrior2 = Warrior("Боб", 90, 19)
 
     while warrior1.isAlive() and warrior2.isAlive():
